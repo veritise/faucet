@@ -1,12 +1,12 @@
-![](https://veritise.com/wp-content/uploads/2021/05/cropped-Veritise-Logo-Blue2-BGBlue-PNG.png)
+<img src="https://veritise.com/wp-content/uploads/2021/05/cropped-Veritise-Logo-Blue2-BGBlue-PNG.png" alt="Veritise" width="200" height="200">
+
 # Veritise Faucet v1.0.0
 
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
-
-Claim tokens for development and testing purposes on the Veritise network.
 ***
-### Simply enter the recipient address, the desired amount of the selected token and claim.
+### Claim tokens for development and testing purposes on the Veritise network.
+Simply enter the recipient address, the desired amount of the selected token and claim.
 
 ***
 ## Requirements
@@ -18,33 +18,33 @@ Claim tokens for development and testing purposes on the Veritise network.
 1. Clone the project.
 
 
-    ```
+ ```
 git clone https://github.com/veritise/faucet.git
-    ```
+ ```
 
 2. Navigate to the project folder.
 
-    ```
+ ```
 cd faucet
-    ```
+ ```
 	
 3. Install the dependencies. This may take a while.
 
-    ```
+ ```
 npm install 
-    ```
+ ```
 
 4. Build the packages.
 
-    ```
+ ```
 npm build run
-    ```
+ ```
     
 6. Start the app.
 
-    ```
+ ```
 npm start
-    ```
+ ```
     
 7. Access the Faucet on your web browser. The default may be http://127.0.0.1:4000. If you get a "connection refused" error, check your .env file.
 ***
